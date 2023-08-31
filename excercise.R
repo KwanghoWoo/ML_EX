@@ -87,6 +87,7 @@ iris
 
 library(ggvis)
 iris %>% ggvis( ~ Petal.Length, ~ Petal.Width, fill = ~ factor(Species)) %>% layer_points()
+<<<<<<< HEAD
 
 # normalization function
 
